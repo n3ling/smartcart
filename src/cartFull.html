@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-sm-auto bg-light sticky-top" style="border-right:#268462 solid 6px;">
                     <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
-                        <a href="home.html" class="d-block p-3 link-dark text-decoration-none" title=""
+                        <a href="./home.html" class="d-block p-3 link-dark text-decoration-none" title=""
                             data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
                             <img src="../assets/images/grocery.png" style="width: 104px;
                                 height: 104px;
@@ -50,7 +50,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="scan.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
                                     data-bs-placement="right" data-bs-original-title="Dashboard">
                                     <svg width="97" height="97" viewBox="0 0 97 97" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +61,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="search.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
                                     data-bs-placement="right" data-bs-original-title="Orders">
                                     <svg width="97" height="97" viewBox="0 0 97 97" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +94,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="help.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
                                     data-bs-placement="right" data-bs-original-title="Customers">
                                     <svg width="97" height="88" viewBox="0 0 97 88" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -111,41 +111,134 @@
                     <h1 style="padding-left: 3rem;">Shopping cart</h1>
                     <hr style="height:4px;border-width:1;color:#268462;background-color:#268462">
                     <div style="display: grid; grid-template-areas: 50% 50%; position:relative">
-                        <div style="display: grid;
-                            grid-template-columns: 50% 50%;
-                            align-items: center;
-                            gap: 2.125rem;
-                            justify-content: space-around;
-                            padding-left: 10rem;">
-                            <div style="height: 18rem; width: 35rem; text-align: center; padding-top: 5rem;">
-                                <span style="color: #000;
-                                text-align: center;
-                                font-size: 3rem;
+                        <div>
+                            <hr>
+                            <div style="display: flex; flex-direction: row; align-content: center; text-align: center; gap:10rem;">
+                                <img style="border-radius: 8.4375rem;
+                                border: 1px solid #797979;
+                                background: url(../assets/images/cucumbers.svg) lightgray 50% / cover no-repeat;
+                                width: 8.4375rem;
+                                height: 8.4375rem;
+                                flex-shrink: 0;"/>
+                                <div style="display: flex; flex-direction: column; padding-top: 3rem; align-content: center; text-align: center; width:8rem;">
+                                    <span style="color: #373A3F;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">
+                                        Cucumbers
+                                    </span>
+                                    <span style="color: #373A3F;
+                                    font-size: 1.25rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.25rem; /* 100% */">
+                                        $1.50 Ea.
+                                    </span>
+                                </div>
+                                <div style="border-radius: 1.875rem;
+                                background: #268462;width: 10rem;
+                                height: 3rem;
+                                flex-shrink: 0; margin-top: 3rem; justify-content: space-around;
+                                display: flex; flex-direction: row; text-align: center; padding-top: 0.5rem;">
+                                    <span style="color: #FFF;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">-</span>
+                                    <span style="color: #FFF;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">3</span>
+                                    <span style="color: #FFF;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">+</span>
+                                </div>
+                                <span style="color: #373A3F;
+                                font-size: 2rem;
                                 font-style: normal;
+                                margin-top:3rem;
+                                padding-top:0.5rem;
+                                width: 5 rem;
                                 font-weight: 700;
-                                line-height: 2.1875rem; /* 72.917% */">
-                                Your Cart is Empty! Quick scan an item below, or use the scan or search menu to get started!
-                            </span>
+                                line-height: 1.25rem; /* 62.5% */">$4.50</span>
+                                <span style="color: #A50000;
+                                font-size: 1.25rem;
+                                font-style: normal;
+                                margin-top:3rem;
+                                padding-top:0.5rem;
+                                font-weight: 700;
+                                line-height: 1.25rem; /* 100% */">Remove</span>
                             </div>
-                            <div style="width: 12.5rem;
-                            height: 6.93088rem;
-                            flex-shrink: 0;">
-                                <svg width="200" height="201" viewBox="0 0 200 201" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_20_356)">
-                                    <path d="M148.75 128.5L173.225 32.6688H200V17.6056H161.525L155.756 40.196L0 40.0846L16.5592 128.499H148.75V128.5ZM151.91 55.2566L137.051 113.436H29.063L18.1486 55.1609L151.91 55.2566Z" fill="black"/>
-                                    <path d="M128.13 183.395C141.413 183.395 152.219 172.588 152.219 159.306C152.219 146.023 141.413 135.217 128.13 135.217H37.3739C24.0915 135.217 13.2852 146.023 13.2852 159.306C13.2852 172.588 24.0913 183.395 37.3739 183.395C50.6566 183.395 61.4625 172.588 61.4625 159.306C61.4625 156.116 60.8376 153.07 59.7065 150.281H105.798C104.666 153.07 104.041 156.116 104.041 159.306C104.042 172.588 114.848 183.395 128.13 183.395ZM46.3993 159.306C46.3993 164.283 42.3506 168.331 37.3739 168.331C32.3973 168.331 28.3484 164.283 28.3484 159.306C28.3484 154.329 32.3971 150.281 37.3739 150.281C42.3506 150.281 46.3993 154.329 46.3993 159.306ZM137.156 159.306C137.156 164.283 133.107 168.331 128.13 168.331C123.154 168.331 119.105 164.283 119.105 159.306C119.105 154.329 123.154 150.281 128.13 150.281C133.107 150.281 137.156 154.329 137.156 159.306Z" fill="black"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_20_356">
-                                        <rect width="200" height="200" fill="white" transform="translate(0 0.5)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
-                            </div>                       
+                            <hr>
+                            <div style="display: flex; flex-direction: row; align-content: center; text-align: center; gap: 10rem;">
+                                <img style="border-radius: 8.4375rem;
+                                border: 1px solid #797979;
+                                background: url(../assets/images/ChickenBreast.svg) lightgray 50% / cover no-repeat;
+                                width: 8.4375rem;
+                                height: 8.4375rem;
+                                flex-shrink: 0;"/>
+                                <div style="display: flex; flex-direction: column; padding-top: 3rem; align-content: center; text-align: center; width:8rem;">
+                                    <span style="color: #373A3F;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">
+                                        Chicken Breast
+                                    </span>
+                                    <span style="color: #373A3F;
+                                    font-size: 1.25rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.25rem; /* 100% */">
+                                        $24.00 Ea.
+                                    </span>
+                                </div>
+                                <div style="border-radius: 1.875rem;
+                                background: #268462;width: 10rem;
+                                height: 3rem;
+                                flex-shrink: 0; margin-top: 3rem; justify-content: space-around;
+                                display: flex; flex-direction: row; text-align: center; padding-top: 0.5rem;">
+                                    <span style="color: #FFF;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">-</span>
+                                    <span style="color: #FFF;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">1</span>
+                                    <span style="color: #FFF;
+                                    font-size: 2rem;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 1.75rem; /* 87.5% */">+</span>
+                                </div>
+                                <span style="color: #373A3F;
+                                font-size: 2rem;
+                                font-style: normal;
+                                margin-top:3rem;
+                                padding-top:0.5rem;
+                                width: 5rem;
+                                font-weight: 700;
+                                line-height: 1.25rem; /* 62.5% */">$24.00</span>
+                                <span style="color: #A50000;
+                                font-size: 1.25rem;
+                                font-style: normal;
+                                margin-top:3rem;
+                                padding-top:0.5rem;
+                                font-weight: 700;
+                                line-height: 1.25rem; /* 100% */">Remove</span>
+                            </div>
+                            <hr>
                         </div>
                     
                         <div style="display: flex; flex-direction: row; justify-content: space-between;
-                        margin-top: 15rem;">
+                        margin-top: 10rem;">
                             <div style="display: flex; flex-direction: row; justify-content: space-around; gap: 1rem;">
                                 <div style="width:4.5rem;height:4.5rem;background-color: #268462; text-align: center; 
                                 border-radius: 90%; align-content: center;">
@@ -157,24 +250,41 @@
                                 text-align: right;
                                 font-feature-settings: 'clig' off, 'liga' off;
                                 font-size: 1.5rem;
-                                padding-top: 1rem;
                                 font-style: normal;
+                                padding-top: 1rem;
                                 font-weight: 700;
                                 line-height: 1.75rem; /* 116.667% */">
                                     Scan Item
                                 </span>
                             </div>
                             <div style="border-radius: 1.875rem;
-                            background: #595D62;width: 27.70788rem;
+                            background: #268462;width: 27.70788rem;
                             height: 4rem;
-                            flex-shrink: 0; text-align: center; align-items: center; padding-top: 1rem;">
+                            flex-shrink: 0; text-align: center; align-items: center; padding-top: 0rem;
+                            display: flex; flex-direction: row; justify-content: space-around;">
                                 <span style="color: #FFF;
                                 font-feature-settings: 'clig' off, 'liga' off;
                                 font-size: 2rem;
                                 font-style: normal;
                                 font-weight: 700;
                                 line-height: 1.75rem; /* 87.5% */">
-                                    Your cart is empty
+                                    $
+                                </span>
+                                <span style="color: #FFF;
+                                font-feature-settings: 'clig' off, 'liga' off;
+                                font-size: 2rem;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 1.75rem; /* 87.5% */">
+                                    28.50
+                                </span>
+                                <span style="color: #FFF;
+                                font-feature-settings: 'clig' off, 'liga' off;
+                                font-size: 2rem;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 1.75rem; /* 87.5% */">
+                                    Checkout
                                 </span>
                             </div>
                         </div>
