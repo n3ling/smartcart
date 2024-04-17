@@ -74,6 +74,10 @@ The icons needed were grabbed from the Iconify plugin for Figma, which allowed f
 
 ## Code Project Iterations
 
+### Difficulties Encountered
+
+Most of the difficulties in transferring the project from Figma to Bootstrap HTML came about due to the loss of the easy-to-use Figma User Interface. What is gained in customizability and freedom in direct HTML is lost in ease of use, leading to a difficult transfer process in terms of functionality and layout. There were also severe time constraint limitations due to poor project planning, however the group has done the best job we could in delivering a product by the final project deadline that closely meets the standards set by our Figma prototype. 
+
 ### Main Differences between project phases 4 and 5
 
 #### Added navigation pages that were not created in time for phase 4 submission
