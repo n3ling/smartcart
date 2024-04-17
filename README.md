@@ -72,5 +72,19 @@ The font chosen for this project was DMSans as it is a clean font that is approp
 
 The icons needed were grabbed from the Iconify plugin for Figma, which allowed for an easy import of vector shapes into the project and also assisted with gaining a consistent feel across all the icons used across the interface due to being from the same library. 
 
+## Code Project Iterations
+
+### Main Differences between project phases 4 and 5
+
+#### Added navigation pages that were not created in time for phase 4 submission
+
+#### Largely improved button interaction linking pages together
+
+#### Missing Sidebar links reinitialized and improved 
+
+#### Improvements to UI design to more closely resemble figma prototype
+
+
+
 
 
